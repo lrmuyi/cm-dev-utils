@@ -1,0 +1,32 @@
+{
+  "name": "cm-dev-utils",
+  "version": "0.0.1",
+  "description": "util js",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrmuyi/cm-dev-utils.git"
+  },
+  "scripts": {
+    "test": "test",
+    "build": "webpack --config build/webpack.base.js"
+  },
+  "keywords": [
+    "array",
+    "object",
+    "time",
+    "regexp"
+  ],
+  "author": "wers",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "vue": "^2.5.17",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {}
+}
